@@ -68,7 +68,7 @@ public class Test extends BaseTest {
         //创建产品
         String productKey = createProductTest(ServiceUtil.productNameGenerator(), "服务端sdk创建");
         //修改产品信息
-        updateProductTest(productKey, "iotProductTest", null);
+        updateProductTest(productKey, "serverTest", null);
 
         List<String> deviceNames = ServiceUtil.deviceNameGenerator(10);
         String deviceName = "device";
